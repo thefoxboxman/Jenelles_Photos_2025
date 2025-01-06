@@ -3,13 +3,13 @@ title: Integer quis auctor elit sed
 slug: first-post0
 description: Lorem ipsum dolor sit amet
 category:
-  - One
+  - Birds
 tags:
   - Tailwind
   - Integer
   - Markdown
-pubDate: 2023-09-01
-cover: https://images.unsplash.com/photo-1498805983167-a523078d762c?w=1960&h=1102&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGJsYWNrfGVufDB8MHwwfHx8Mg%3D%3D
+pubDate: 2025-01-07
+cover: https://github.com/thefoxboxman/Jenelles-Image-Store-2025/blob/main/zzSalmon_Rocks_Cape_Conran_P1411644.jpg?raw=true
 coverAlt: AstroVerse-Lorem ipsum dolor sit amet
 author: VV
 ---

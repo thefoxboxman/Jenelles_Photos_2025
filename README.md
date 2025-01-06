@@ -1,3 +1,27 @@
+# JENELLE'S PHOTOS 2025
+
+## Source: https://github.com/inotelab/astroverse
+## Live Demo: https://verse-astro.vercel.app/
+
+## Logo SVG Source: https://www.svgrepo.com/svg/317398/travel
+
+## Social Icon SVG source: https://tabler.io/icons/icon/
+
+## Markdown Sytax: https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax
+
+## Hero Images used in markdown frontmatter are hosted in GitHub Repo https://github.com/thefoxboxman/Jenelles-Images-2025
+
+
+## Deploys auto from GitHub repo to Netily: https://odyssey-sa.netlify.app
+
+### ////////////////////////////////////
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/63dd0b72-485b-4a12-a8c1-ae7ad83cecec/deploy-status)](https://app.netlify.com/sites/tripitjnj/deploys)
+
+
+
+
+# Original README
 ## 🌍Language Versions / 语言版本
 
 🇺🇸[English](README.md) 🇨🇳[中文](README_CN.md)
@@ -10,15 +34,7 @@ It seamlessly merges visuals and written content, empowering creators to deliver
 
 Ideal for bloggers and content creators seeking to make their stories stand out through the fusion of striking visuals and engaging prose, AstroVerse provides a platform to create immersive and influential digital experiences.
 
-<img src="public/screenshot.webp" alt="AstroVerse Screenshot" />
 
-## 💯Lighthouse Score
-
-<p align="center">
-  <a href="https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fverse-astro.vercel.app%2F">
-    <img width="510" alt="AstroVerse Lighthouse Score" src="public/astroverse-lighthouse-score.svg">
-  <a>
-</p>
 
 ## 🎉 Features
 
