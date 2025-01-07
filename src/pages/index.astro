@@ -1,4 +1,7 @@
 ---
+
+// This is layout for main page (home page)
+
 import { getCollection } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import HeroCard from "@components/HeroCard.astro";
@@ -12,7 +15,7 @@ allPosts.sort(
     new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf(),
 );
 
-const postsPerPage = 15;
+const postsPerPage = 30; //changed from 15 to 30
 const firstPagePosts = allPosts.slice(0, postsPerPage);
 const totalPages = Math.ceil(allPosts.length / postsPerPage);
 
@@ -21,25 +24,29 @@ const basePath = "/page/";
 
 <BaseLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
   <div class="grid grid-cols-1">
-    <div class="col-span-1 mb-4">
+
+    <!-- NOT USEING HEROCARD OR THE ENLARGED 2ND ROW OF OVERSIZED COMMONCARD LAYOUT -->
+    <!-- <div class="col-span-1 mb-4">
       {firstPagePosts.length > 0 && <HeroCard post={firstPagePosts[0]} />}
     </div>
 
     <div class="mb-4 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">
       {firstPagePosts.slice(1, 3).map((post) => <Card post={post} />)}
-    </div>
+    </div> -->
 
+<!-- was 3 changeD to 0 because just show grid of ALL posts -->
+ <!-- NOT DISPLAYING THE TWO ROWS ABOVE -->
     <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-      {firstPagePosts.slice(3).map((post) => <Card post={post} />)}
+      {firstPagePosts.slice(0).map((post) => <Card post={post} />)}
     </div>
   </div>
-
+<!-- page maxDisplayed changed from 5 to 10 -->
   <Pagination
     currentPage={1}
     lastPage={totalPages}
     urlPrev={null}
     urlNext={totalPages > 1 ? `/page/2` : null}
     basePath={basePath}
-    maxDisplayedPages={5}
+    maxDisplayedPages={10} 
   />
 </BaseLayout>

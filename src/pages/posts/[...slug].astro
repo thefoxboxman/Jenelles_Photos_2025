@@ -1,4 +1,8 @@
 ---
+
+// This displays selected post in full as selected by post slug on click
+// Used to show related posts at bottom but this has been commented out
+
 import { getCollection } from "astro:content";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import RelatedPostsCard from "@components/RelatedPostsCard.astro";
@@ -50,11 +54,12 @@ const { Content } = await post.render();
           >
         </div>
     </article>
-    <div class="mt-4">
+    <!-- Stop display related posts -->
+    <!-- <div class="mt-4">
       <RelatedPostsCard
         currentCategory={post.data.category[0]}
         currentSlug={post.slug}
       />
-    </div>
+    </div> -->
   </main>
 </BaseLayout>

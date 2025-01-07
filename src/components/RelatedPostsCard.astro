@@ -1,4 +1,11 @@
 ---
+// NOTE: COMPONENT IS NOT CURRENTLY BEING USED. CHANGED ON [slug].astro
+
+//This the related post card that show a selection of posts at 
+//the bottom of the current post being displayed.
+// This will generally be 3 post some related to the post being displayed in full
+// same tag and sort by date (newest first)
+
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import OptimizedCover from "@components/OptimizedPicture.astro";
@@ -27,6 +34,7 @@ const relatedPosts = await getRelatedArticlesByCategory();
 ---
 
 <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+  
   {
     relatedPosts.map((post) => (
       <div class="relative mb-4 overflow-hidden rounded-xl bg-white transition-transform duration-500 hover:-translate-y-1 hover:scale-105 dark:bg-neutral-900">
