@@ -3,7 +3,7 @@ title: Pair of Brown Doves
 slug: post_4
 description: Highfield Falls Park
 category:
-  - Birds
+  - Photos
 tags:
   - Birds
 pubDate: 2025-01-04

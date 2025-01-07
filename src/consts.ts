@@ -28,9 +28,11 @@ export function getCategoryMetadata(category: string) {
   };
 }
 
+
+//NOTE: NOT SHOWING CATEGORY OPTIONS ON HOME PAGE OR ELSEWHERE DUE TO WARNING
 // Header Links, src/components/Header.astro
 export const HeaderLinks = [
-   { href: "/category/Photos/Photos/", title: "Photos" },
+  //  { href: "/category/One/1/", title: "One" },
   // { href: "/category/Two/1/", title: "Two" },
   // { href: "/category/Three/1/", title: "Three" },
 ];
